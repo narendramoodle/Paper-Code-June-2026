@@ -1,0 +1,36 @@
+{
+  "heart": {
+    "sex": {
+      "accuracy_gap": 0.11061026352288494,
+      "auc_gap": 0.0825704225352113,
+      "tpr_gap_equal_opportunity": 0.08274647887323938,
+      "fpr_gap": 0.07500000000000001,
+      "selection_rate_gap_demographic_parity": 0.3061719833564494
+    },
+    "age": {
+      "accuracy_gap": 0.1428571428571429,
+      "auc_gap": 0.12190476190476196,
+      "tpr_gap_equal_opportunity": 0.1428571428571429,
+      "fpr_gap": 0.26666666666666666,
+      "selection_rate_gap_demographic_parity": 0.5844155844155844
+    }
+  },
+  "diabetes": {
+    "age": {
+      "accuracy_gap": 0.8433734939759037,
+      "auc_gap": 0.12596006144393246,
+      "tpr_gap_equal_opportunity": 0.6923076923076923,
+      "fpr_gap": 0.06451612903225806,
+      "selection_rate_gap_demographic_parity": 0.47368421052631576
+    }
+  },
+  "kidney": {
+    "age": {
+      "accuracy_gap": 0.0,
+      "auc_gap": 0.0,
+      "tpr_gap_equal_opportunity": 0.0,
+      "fpr_gap": 0.0,
+      "selection_rate_gap_demographic_parity": 0.625
+    }
+  }
+}

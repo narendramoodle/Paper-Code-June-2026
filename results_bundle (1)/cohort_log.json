@@ -1,0 +1,46 @@
+{
+  "heart": {
+    "dataset": "heart",
+    "raw_rows": 918,
+    "sentinel_to_nan": {
+      "Cholesterol": 172,
+      "RestingBP": 1
+    },
+    "dropped_missing_target": 0,
+    "missing_threshold": 0.5,
+    "dropped_too_sparse": 0,
+    "final_rows": 918,
+    "positive_rate": 0.5533769063180828,
+    "n_numeric": 5,
+    "n_categorical": 6
+  },
+  "diabetes": {
+    "dataset": "diabetes",
+    "raw_rows": 768,
+    "sentinel_to_nan": {
+      "Glucose": 5,
+      "BloodPressure": 35,
+      "SkinThickness": 227,
+      "Insulin": 374,
+      "BMI": 11
+    },
+    "dropped_missing_target": 0,
+    "missing_threshold": 0.5,
+    "dropped_too_sparse": 0,
+    "final_rows": 768,
+    "positive_rate": 0.3489583333333333,
+    "n_numeric": 8,
+    "n_categorical": 0
+  },
+  "kidney": {
+    "dataset": "kidney",
+    "raw_rows": 400,
+    "dropped_missing_target": 0,
+    "missing_threshold": 0.5,
+    "dropped_too_sparse": 0,
+    "final_rows": 400,
+    "positive_rate": 0.625,
+    "n_numeric": 14,
+    "n_categorical": 10
+  }
+}

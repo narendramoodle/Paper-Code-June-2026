@@ -1,0 +1,44 @@
+dataset,feature,type,description
+heart,Age,numeric,Age in years
+heart,RestingBP,numeric,Resting blood pressure (mm Hg)
+heart,Cholesterol,numeric,Serum cholesterol (mg/dl); 0 treated as missing
+heart,MaxHR,numeric,Maximum heart rate achieved
+heart,Oldpeak,numeric,ST depression induced by exercise
+heart,Sex,categorical,Sex (M/F)
+heart,ChestPainType,categorical,"Chest pain type (TA, ATA, NAP, ASY)"
+heart,FastingBS,categorical,Fasting blood sugar > 120 mg/dl (1/0)
+heart,RestingECG,categorical,"Resting electrocardiogram results (Normal, ST, LVH)"
+heart,ExerciseAngina,categorical,Exercise-induced angina (Y/N)
+heart,ST_Slope,categorical,"Slope of peak exercise ST segment (Up, Flat, Down)"
+diabetes,Pregnancies,numeric,Number of times pregnant
+diabetes,Glucose,numeric,Plasma glucose concentration (2-h OGTT); 0 = missing
+diabetes,BloodPressure,numeric,Diastolic blood pressure (mm Hg); 0 = missing
+diabetes,SkinThickness,numeric,Triceps skinfold thickness (mm); 0 = missing
+diabetes,Insulin,numeric,2-h serum insulin (mu U/ml); 0 = missing
+diabetes,BMI,numeric,Body mass index (kg/m^2); 0 = missing
+diabetes,DiabetesPedigreeFunction,numeric,Diabetes pedigree function (family history score)
+diabetes,Age,numeric,Age in years
+kidney,age,numeric,Age in years
+kidney,bp,numeric,Blood pressure (mm Hg)
+kidney,sg,numeric,Specific gravity of urine
+kidney,al,numeric,Albumin level
+kidney,su,numeric,Sugar level
+kidney,bgr,numeric,Blood glucose random (mg/dl)
+kidney,bu,numeric,Blood urea (mg/dl)
+kidney,sc,numeric,Serum creatinine (mg/dl)
+kidney,sod,numeric,Sodium (mEq/L)
+kidney,pot,numeric,Potassium (mEq/L)
+kidney,hemo,numeric,Hemoglobin (g/dl)
+kidney,pcv,numeric,Packed cell volume
+kidney,wc,numeric,White blood cell count (cells/cmm)
+kidney,rc,numeric,Red blood cell count (millions/cmm)
+kidney,rbc,categorical,Red blood cells (normal/abnormal)
+kidney,pc,categorical,Pus cell (normal/abnormal)
+kidney,pcc,categorical,Pus cell clumps (present/notpresent)
+kidney,ba,categorical,Bacteria (present/notpresent)
+kidney,htn,categorical,Hypertension (yes/no)
+kidney,dm,categorical,Diabetes mellitus (yes/no)
+kidney,cad,categorical,Coronary artery disease (yes/no)
+kidney,appet,categorical,Appetite (good/poor)
+kidney,pe,categorical,Pedal edema (yes/no)
+kidney,ane,categorical,Anemia (yes/no)
